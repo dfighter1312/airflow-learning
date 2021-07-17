@@ -1,6 +1,6 @@
 # Practice with Airflow
 
-This repository is created based on (**Learning Apache Airflow with Python in easy way in 40 Minutes**)[https://www.youtube.com/watch?v=2v9AKewyUEo] and (**Airflow for Beginners - Run Spotify ETL Job in 15 minutes!**)[https://www.youtube.com/watch?v=i25ttd32-eo]
+This repository is created based on [**Learning Apache Airflow with Python in easy way in 40 Minutes**](https://www.youtube.com/watch?v=2v9AKewyUEo) and [**Airflow for Beginners - Run Spotify ETL Job in 15 minutes!**](https://www.youtube.com/watch?v=i25ttd32-eo)
 
 To work:
 1. Install Docker/Docker-compose/Docker Desktop and clone the repository.
