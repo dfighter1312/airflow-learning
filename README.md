@@ -15,8 +15,20 @@ $ cd project
 $ docker system prune
 $ docker image prune
 ```
-4. Run the docker-compose.
+4. (Optional) To run database migrations and create the first user account, run
+```
+$ docker up airflow-init
+```
+5. Run the docker-compose.
 ```
 $ docker-compose up --build
 ```
-5. Open `localhost:8080` to see the magic.
+6. Open `localhost:8080` to see the magic. Beforehand, the username and password for logging in are `airflow`.
+7. Before finishing, type the command
+```
+docker-compose down
+```
+
+## Repository updates:
+
+- 1.1. Update Airflow `docker-compose.yml` file.
