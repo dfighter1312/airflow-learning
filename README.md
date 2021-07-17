@@ -1,8 +1,6 @@
 # Practice with Airflow
 
-This repository is created based on **Learning Apache Airflow with Python in easy way in 40 Minutes**
-
-Link: https://www.youtube.com/watch?v=2v9AKewyUEo
+This repository is created based on (**Learning Apache Airflow with Python in easy way in 40 Minutes**)[https://www.youtube.com/watch?v=2v9AKewyUEo] and (**Airflow for Beginners - Run Spotify ETL Job in 15 minutes!**)[https://www.youtube.com/watch?v=i25ttd32-eo]
 
 To work:
 1. Install Docker/Docker-compose/Docker Desktop and clone the repository.
@@ -28,7 +26,12 @@ $ docker-compose up --build
 ```
 docker-compose down
 ```
+or to stop and delete containers, delete volumes with database data and download images, run
+```
+docker-compose down --volumes --rmi all
+```
 
 ## Repository updates:
 
 - 1.1. Update Airflow `docker-compose.yml` file.
+- 1.2. Add Spotify ETL dags.
